@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://gokulyc.github.io',
+	site: 'https://github.gokulyc.in',
 	integrations: [mdx(), sitemap()],
 });
