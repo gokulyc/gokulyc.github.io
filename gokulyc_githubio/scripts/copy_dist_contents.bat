@@ -1,0 +1,1 @@
+xcopy /i /s dist ../
