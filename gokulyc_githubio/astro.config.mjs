@@ -4,8 +4,11 @@ import sitemap from '@astrojs/sitemap';
 
 import react from "@astrojs/react";
 
+import netlify from '@astrojs/netlify';
+
 // https://astro.build/config
 export default defineConfig({
   site: 'https://github.gokulyc.in',
-  integrations: [mdx(), sitemap(), react()]
+  integrations: [mdx(), sitemap(), react()],
+  adapter: netlify()
 });

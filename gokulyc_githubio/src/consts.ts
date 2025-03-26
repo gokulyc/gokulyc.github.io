@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = "Gokul's Blog";
 export const SITE_DESCRIPTION = 'Welcome to my website, with information related to python, ReactJS, AstroJS!';
+export const BLOG_API_ROOT = "https://fastapibackendproj-production.up.railway.app";
